@@ -45,3 +45,16 @@ ReactDOM.render(<App/>,document.getElementById('root'));
 ### state
   - 유동적인 데이터
   - 초기값 설정이 필수, 생성자에서 this.state={}으로 설정
+
+  
+### 리액트를 다루는 기술
+1. nodejs 설치
+2. yarn 설치
+  - 설치 확인
+    - yarn --version
+3. create-react-app으로 프로젝트 생성하기
+  - yarn create react-app hello-react
+  
+4. 프로젝트 생성 완료시 리액트 개발 전용 서버 구동
+  - cd hello-react
+  - yarn start
